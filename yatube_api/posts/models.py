@@ -31,7 +31,7 @@ class Group(models.Model):
 
 class Post(models.Model):
     text = models.TextField(
-        max_length=400,
+        max_length=2200,
         verbose_name='Текст поста',
         help_text='Текст нового поста'
     )
